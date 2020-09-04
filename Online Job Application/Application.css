@@ -1,0 +1,113 @@
+body
+{
+	background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+	background-size: cover;
+	background-attachment: fixed; /* background image fixed */
+	color:white;
+	font-family:"Times New Roman", Times, serif;
+	font-weight: small-caps;
+}
+h2
+{
+	text-align: center;
+	font-family: "Old English Text MT",Sans-Serif;
+	font-size: 50px;
+	text-shadow: 0 0 10px,white;
+	border-spacing: 100px;
+	color: red;
+	text-decoration: underline;
+	margin: 5px;
+	background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-33.jpg);
+
+}
+
+fieldset
+{
+	border: 3px solid black;
+	padding: 10px;
+	box-shadow: 0 0 10px white;
+	border-radius: 0px 40px 0px 40px;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+fieldset legend /*decendent selector */
+{
+	border: 3px solid red;
+	padding: 10px;
+	border-radius: 0px 20px 0px 20px;
+	background: linear-gradient(45deg,blue,darkred);
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: yellow;
+}
+table
+{
+	width: 100%;
+}
+table td
+{
+	font-size: 20px;
+	padding: 10px;
+}
+table th
+{
+	text-align: left;
+}
+input[type="text"],
+input[type="week"],
+input[type="month"],
+input[type="number"],
+input[type="time"],
+input[type="date"],
+select,textarea
+{
+	border-radius: 20px;
+	height: 30px;
+	width: 200px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+textarea
+{
+	height: 70px;	
+}
+
+/* for button */
+.button
+{
+	border:3px solid white;
+	padding: 10px 20px;
+	background:linear-gradient(45deg,yellow,blue,pink); 
+	color: white;
+	border-radius: 0px 20px 0px 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px; 
+	transition-duration: 0.4s;
+	width: 100px;
+}
+.button:hover
+{
+	background:linear-gradient(45deg,lime,red);
+	cursor: pointer; /* mouse hand cursur*/
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 12px 16px 20px;
+
+
+}
+
+input[type="text"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="time"]:focus,
+input[type="date"]:focus,
+
+select:focus,textarea:focus
+{
+	background-color: yellow;
+	box-shadow:0px 0px 10px red;
+}

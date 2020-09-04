@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Applicatin</title>
+	<link rel="stylesheet" type="text/css" href="Application.css">
+</head>
+<body>
+	<h2>Online Job Application</h2>
+	<br><br><br>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<table>
+				<tr>
+					<td style="color: cyan"><label>First Name<span  style="color:red">*</span></label></td>
+					<td><input type="text" name="t1"></td>
+					
+					<td style="color: cyan"><label>Middle Name</label></td>
+					<td><input type="text" name="t1"></td>
+					
+					<td style="color: cyan"><label>Last Name<span  style="color:red">*</span></label></td>
+					<td><input type="text" name="t1"></td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Father's Name<span  style="color:red">*</span></label></td>
+					<td><input type="text" name="t1"></td>
+					
+					<td style="color: cyan"><label>Mother's Name<span  style="color:red">*</span></label></td>
+					<td><input type="text" name="t1"></td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Current Addrress<span  style="color:red">*</span></label></td>
+					<td><textarea cols="25" rows="3"></textarea></td>
+					
+					<td style="color: cyan"><label>Permanent Address<span  style="color:red">*</span></label></td>
+					<td><textarea cols="25" rows="3"></textarea></td>
+				</tr>
+
+				<tr>
+					<td style="color: cyan"><label>Landline Number</label></td>
+					<td><input type="Number" name="t1" ></td>
+					
+					<td style="color: cyan"><label>Mobile Number<span  style="color:red">*</span></label></td>
+					<td><input type="Number" name="t1" required="required"></td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Date Of Birth<span  style="color:red">*</span></label></td>
+					<td><input type="Date" name="t1" required="required"></td>
+					
+					<td style="color: cyan"><label>Place Of Birth</label></td>
+					<td><input type="text" name="t1" required="required"></td>
+				</tr>
+				<tr>
+					<td  style="color: cyan"><label>Gender<span  style="color:red">*</span></label></td>
+					<td><input type="radio" name="r1" required="required">Male</td>
+					<td><input type="radio" name="r1" required="required">Female</td>
+					<td><input type="radio" name="r1" required="required">Others</td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Languages Known<span  style="color:red">*</span></label></td>
+					<td><input type="checkbox" name="c1">English</td>
+					<td><input type="checkbox" name="c1">Hindi</td>
+					<td><input type="checkbox" name="c1">Bengali</td>
+					<td><input type="checkbox" name="c1">Tamil</td>
+					<td><input type="checkbox" name="c1">Telegu</td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Hobbies<br><br></label></td>
+					<td><input type="checkbox" name="c1">Singing</td>
+					<td><input type="checkbox" name="c1">Coding</td>
+					<td><input type="checkbox" name="c1">Dancing</td>
+					<td><input type="checkbox" name="c1">Painting</td>
+					<td><input type="checkbox" name="c1">Driving</td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>About Yourself</label></td>
+					<td><textarea cols="50" rows="3"></textarea><br><br></td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Nationality<span  style="color:red">*</span></label></td>
+					<td><select>
+						<option>-----Select-----</option>
+						<option>Indian</option>
+						<option>American</option>
+						<option>African</option>
+						<option>Europian</option>
+						<option>Chinese</option>
+						<option>Japanese</option>
+						<option>Indonesian</option>
+						<option>Others</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td style="color: cyan"><label>Aadhar Card Number<span  style="color:red">*</span></label></td>
+					<td><input type="Number" name="n1" required="required"></td>
+					
+					<td style="color: cyan"><label>PAN Card Number<span  style="color:red">*</span></label></td>
+					<td><input type="Number" name="n2" required="required"></td>
+				</tr>
+			</table>
+		</fieldset>
+
+		<fieldset>
+			<legend>Educational Details</legend>
+			<table>
+				<tr>
+					<td style="color: cyan">Education Qualification<span  style="color:red">*</span></td>
+					<td><select>
+						<option>-----Select------</option>
+						<option>BCA</option>
+						<option>BCA</option>
+						<option>B.A</option>
+						<option>B.Tech</option>
+						<option>B.Com</option>
+						<option>B.Ed</option>
+						<option>B.E</option>
+					</select></td>
+					</tr>
+					<tr>
+					<td style="color: cyan">Institute Name<span  style="color:red">*</span></td>
+					<td style="color: cyan">Year Of Passout<span  style="color:red">*</span></td>
+					<td style="color: cyan">Marks(%)<span  style="color:red">*</span></td>
+					<td style="color: cyan">CGPA<span  style="color:red">*</span></td>
+				</tr>
+				<tr>
+					
+					<td><input type="text" name="t1"></td>
+					<td><input type="month" name="t1"></td>
+					<td><input type="Number" name="t1"></td>
+					<td><input type="Number" name="t1"></td>
+				</tr>
+			</table>
+		</fieldset>
+
+		<fieldset>
+			<legend>Work Experience<span  style="color:red">*</span></legend>
+			<table>
+				<tr>
+					<td style="color: cyan">Company Name</td>
+					<td style="color: cyan">Employment Status</td>
+					<td style="color: cyan">From Date</td>
+					<td style="color: cyan">To Date</td>
+				</tr>
+				<tr>
+					<td><textarea cols="50" rows="4"></textarea></td>
+
+					<td><select>
+						<option>-----Select-----</option>
+						<option>Employed</option>
+						<option>Self-Employed</option>	
+						<option>Un-Employed</option>
+						<option>Student</option>
+					</select>
+					</td>
+					<td><input type="week" name="w1"></td>
+					<td><input type="week" name="w2"></td>
+				</tr>
+			</table>
+		</fieldset>
+
+		<fieldset>
+			<legend>Other Details</legend>
+			<table>
+				<tr>
+					<td colspan="2" style="color: cyan"><label>Job Type</label></td>
+
+					<td style="color: white"><input type="radio" name="r1">Permanent</td>
+					<td style="color: white"><input type="radio" name="r1">Part Time</td>
+					<td style="color: white"><input type="radio" name="r1">Full Time</td>
+					<td style="color: white"><input type="radio" name="r1">Contract</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="color: cyan"><label>Date Of Joning</label></td>
+					<td><input type="week" name="r1"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="color: cyan"><label>Time Of Joning</label></td>
+					<td><input type="Time" name="r1"></td>
+					
+				</tr>
+				<tr>
+					<td colspan="2" style="color: cyan"><label for="Location">Prefered Job Location<span  style="color:red">*</span></label></td>
+					<br>
+						<td><input type="checkbox" name="c1" >Kolkata</td>
+						<td><input type="checkbox" name="c1">Mumbai</td>
+						<td><input type="checkbox" name="c1">Pune</td>
+						<td><input type="checkbox" name="c1">Chennai</td>
+						<td><input type="checkbox" name="c1">Bangalore</td>
+						<td><input type="checkbox" name="c1">Hydrabad</td>
+						<td><input type="checkbox" name="c1">Delhi</td>
+						<td><input type="checkbox" name="c1">Others</td>
+				</tr>
+				<tr>
+					<td colspan="2"  style="color: cyan"><label>Do You have Passport? <span  style="color:red">*</span></label></td>
+					<td><input type="radio" name="r">Yes</td>
+					<td><input type="radio" name="r">No</td>
+				</tr>
+				<tr>
+					<td colspan="2"  style="color: cyan"><label>Do You have PAN Card? <span  style="color:red">*</span></label></td>
+					<td><input type="radio" name="r">Yes</td>
+					<td><input type="radio" name="r">No</td>
+				</tr>
+					<tr>
+					<td colspan="2"  style="color: cyan"><label>Do You have Aadhar Card? <span  style="color:red">*</span></label></td>
+					<td><input type="radio" name="r">Yes</td>
+					<td><input type="radio" name="r">No</td>
+				</tr>
+					<td colspan="2"  style="color: cyan"><label>Willing to Relocate in Kolkata? </label></td>
+					<td><input type="radio" name="r">Yes</td>
+					<td><input type="radio" name="r">No</td>
+				</tr>
+				<tr>
+					<label style="color: cyan">Upload CV: <span  style="color:red">*</span></label>
+					 <input type="file" name="file" accept="file/*">
+					 <p style="color: yellow;font-size: 16px;"><strong>Note:</strong> File size should be minimum of 50kb and Maximum of 100kb.</p>
+
+					 <label style="color: cyan">Upload Photo: <span  style="color:red">*</span></label>
+					 <input type="file" name="img" accept="img/*">
+					 <p style="color: yellow;font-size: 16px;"><strong>Note:</strong> Image size should be minimum of 100kb and Maximum of 300kb.</p>
+
+					 <label style="color: cyan">Upload Signature: <span  style="color:red">*</span></label>
+					 <input type="file" name="sign" accept="img/*">
+					 <p style="color: yellow;font-size: 16px;"><strong>Note:</strong> File size should be minimum of 10kb and Maximum of 50b.</p>
+
+
+				</tr>
+				<tr>
+					<td colspan="50" style="color: cyan"><br><br><br><input type="checkbox" name="">  I am hereby declared that all the above information is true as per my knowledge. </td>
+				</tr>
+			<table>
+				<tr><br><br>
+					<td><input type="submit" value="Submit" class="button"></td>
+					<td><input type="reset" value="Reset" class="button"></td>
+				</tr>
+			</table>
+			<p style="color: white"><strong>Note: </strong>All the <span  style="color:red">*</span> fields are mandatory.</p>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html
